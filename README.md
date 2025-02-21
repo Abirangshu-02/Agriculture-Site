@@ -33,12 +33,12 @@ This is a Laravel-based agriculture website designed to showcase various agricul
    composer install
 4. **Configure .env file for database settings:**
    Open the .env file and update the following environment variables for your database connection:
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=your_database_name
-   DB_USERNAME=your_database_username
-   DB_PASSWORD=your_database_password
+   - DB_CONNECTION=mysql
+   - DB_HOST=127.0.0.1
+   - DB_PORT=3306
+   - DB_DATABASE=your_database_name
+   - DB_USERNAME=your_database_username
+   - DB_PASSWORD=your_database_password
 5. **Generate the application key:**
    ````bash
    php artisan key:generate
@@ -62,4 +62,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for database management.
 
 **For more information, please feel free to reach out via the contact form on the website.**
-This README provides all the necessary steps for installation, usage, and contributing, along with a clear description of the features. Adjust any project-specific details (like database settings or package dependencies) to suit your project.
+- This README provides all the necessary steps for installation, usage, and contributing, along with a clear description of the features. Adjust any project-specific details (like database settings or package dependencies) to suit your project.

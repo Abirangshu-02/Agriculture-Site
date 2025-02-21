@@ -6,7 +6,7 @@ This is a Laravel-based agriculture website designed to showcase various agricul
 
 - **Product Showcase:** Displays various agricultural products in an organized and responsive manner.
 - **Customer Contact Form:** Allows customers to submit inquiries, which are stored in the database.
-- **Database Integration:** The website is connected to a MySQL database to store contact submissions and other dynamic content.
+- **Database Integration:** The website is connected to a SQLite database to store contact submissions and other dynamic content.
 - **Responsive Design:** Optimized for desktop and mobile views for a seamless user experience.
 
 ## Installation
@@ -17,7 +17,6 @@ This is a Laravel-based agriculture website designed to showcase various agricul
 - Composer
 - Laravel 8.x or higher
 - MySQL or compatible database
-- Node.js & NPM for front-end dependencies (optional)
 
 ### Steps to Install
 
